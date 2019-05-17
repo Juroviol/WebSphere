@@ -1,4 +1,4 @@
-# Criação de Tema customizado para o WebSphere Portal
+# Criação de tema customizado para o WebSphere Portal
 
 Segundo a IBM, a melhor maneira de criar um tema customizado, é copiar o tema padrão do próprio WebSphere Portal, para que na criação do tema customizado, não seja esquecido de incluir as configurações necessárias.
 
