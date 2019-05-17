@@ -22,3 +22,8 @@ Usuário | O usuário que acessa a administração do WebSphere Portal
 Senha | A senha do usuário que acessa a administração do WebSphere Portal
 
 ![Imagem avançado nova conexão no WinSCP](imagens/nova-conexao-webdav-avancado.png)
+
+Campo | Descrição
+---|---
+Diretório remoto | /wps/mycontenthandler/dav/themelist
+Diretório local | Diretório definido na máquina local onde os arquivos serão copiadas
