@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server description="new server">
+  <featureManager>
+    <feature>javaee-7.0</feature>
+    <feature>usr:jsfPortletBridge-1.0</feature>
+    <feature>usr:portlet-2.1</feature>
+    <feature>usr:portletserving-2.1</feature>
+    <feature>localConnector-1.0</feature>
+  </featureManager>
+  <quickStartSecurity userName="admin" userPassword="admin" />
+  <httpEndpoint httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint" />
+  <applicationManager autoExpand="true" />
+  <!-- Inclui bibliotecas JAVA como providas pelo WebSphere -->
+  <library id="global">
+    <fileset dir="/path/to/your/libs/directory" includes="somelib.jar" />
+  </library>
+  <applicationMonitor pollingRate="500ms" updateTrigger="polled" />
+  <jndiEntry jndiName="str/MyString" value="Hello World!" />
+  <jndiURLEntry jndiName="url/MyURL" value="" />
+  <logging consoleLogLevel="INFO" />
+  <resourceAdapter location="/path/to/your/resourceadapter.rar" />
+  <!-- Passando propriedades para o resource adapter configurado acima -->
+  <!-- Estará disponível ao resource adapter como "propriedade" -->
+  <connectionFactory jndiName="some/jndi">
+    <properties.resourcadapter Propriedade="" />
+  </connectionFactory>
+</server>
+
