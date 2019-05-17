@@ -27,3 +27,5 @@ Campo | Descrição
 ---|---
 Diretório remoto | /wps/mycontenthandler/dav/themelist
 Diretório local | Diretório definido na máquina local onde os arquivos serão copiadas
+
+Uma vez conectado será exibido todo o conteúdo do **Diretório remoto**, feito isso copiar o diretório `ibm.portal.85Theme` para a máquina local (no meu caso estou utilizando o WebSphere Portal 8.5, por isso do "85Theme", no seu caso pode ser outro). 
