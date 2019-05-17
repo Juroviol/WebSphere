@@ -12,13 +12,13 @@ Abrir o WinSCP e configurar uma nova conexão definindo os seguintes parâmetros
 
 ![Imagem nova conexão no WinSCP](imagens/nova-conexao-webdav.png)
 
-- Host
-- Porta
-- Usuário
-- Senha
-- Caminho diretório remoto
-- Caminho diretório local 
-
-Onde **Caminho diretório remoto** é */wps/mycontenthandler/dav/themelist* que é o diretório onde conterá os arquivos do tema padrão do WebSphere Portal, e 
+Campo | Descrição
+---|---
+Protocolo de arquivo | WebDAV
+Criptografia | Sem criptografia (Dependendo de como está disponibilizado a instância)
+Host | O endereço IP ou DNS da instância do WebSphere Portal
+Porta | 10039
+Usuário | O usuário que acessa a administração do WebSphere Portal
+Senha | A senha do usuário que acessa a administração do WebSphere Portal
 
 ![Imagem avançado nova conexão no WinSCP](imagens/nova-conexao-webdav-avancado.png)
