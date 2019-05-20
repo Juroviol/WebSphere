@@ -31,3 +31,12 @@ Diretório remoto | /wps/mycontenthandler/dav/themelist
 Diretório local | Diretório definido na máquina local onde os arquivos serão copiadas
 
 Uma vez conectado será exibido todo o conteúdo do **Diretório remoto**, feito isso basta copiar o diretório `ibm.portal.85Theme` para a máquina local (no meu caso estou utilizando o WebSphere Portal 8.5, por isso do "85Theme", no seu caso pode ser outro) e renomear para o nome desejado para o seu tema. 
+
+Feito tudo isso ainda é preciso executar algumas tarefas:
+
+1. Definir quais linguagens será dado suporte em /metadata
+1. Nos arquivos de localização definidos em `title` alterar o nome do tema
+1. No arquivo metadata.properties em `com.ibm.portal.layout.template.href` alterar o nome do tema de acordo com o nome do diretório raíz do tema
+1. Excluir a pasta skins
+
+## 2. Cópia da skin padrão do WebSphere Portal
