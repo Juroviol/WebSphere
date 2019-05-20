@@ -12,8 +12,6 @@ Para acessar o diretório remoto e transfência dos arquivos do tema padrão do 
 
 Abrir o WinSCP e configurar uma nova conexão definindo os seguintes parâmetros:
 
-![Imagem nova conexão no WinSCP](imagens/nova-conexao-webdav.png)
-
 Campo | Descrição
 ---|---
 Protocolo de arquivo | WebDAV
@@ -22,11 +20,6 @@ Host | O endereço IP ou DNS da instância do WebSphere Portal
 Porta | 10039
 Usuário | O usuário que acessa a administração do WebSphere Portal
 Senha | A senha do usuário que acessa a administração do WebSphere Portal
-
-![Imagem avançado nova conexão no WinSCP](imagens/nova-conexao-webdav-avancado.png)
-
-Campo | Descrição
----|---
 Diretório remoto | /wps/mycontenthandler/dav/themelist
 Diretório local | Diretório definido na máquina local onde os arquivos serão copiadas
 
@@ -40,3 +33,5 @@ Feito tudo isso ainda é preciso executar algumas tarefas:
 1. Excluir a pasta skins
 
 ## 2. Cópia da skin padrão do WebSphere Portal
+
+Da mesma maneira feita em 1. Cópia do tema padrão do WebSphere Portal, iremos fazer para o skin.
