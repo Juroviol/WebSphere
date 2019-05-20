@@ -63,6 +63,21 @@ Feito tudo isso ainda é preciso executar algumas tarefas:
 
 # 3. Cópia dos recursos dinâmicos para o seu tema.
 
-Mesmo que você só queira fazer alterações nas partes estáticas do seu recente copiado tema, é recomendável que você faça cópia também dos recursos dinâmicos do tema padrão do WebSphere Portal para garantir que futuras CFs (Cumulative Fix) não afetem o seu tema.
+Mesmo que você planeje somente fazer alterações nas partes estáticas do seu recente copiado tema, é recomendável que você faça cópia também dos recursos dinâmicos do tema padrão do WebSphere Portal para garantir que futuras CFs (Cumulative Fix) não afetem o seu tema.
 
+Para isso realize os seguintes passos:
 
+1. Com ajuda de uma IDE Java de sua preferência, criar um módulo web (.war) contendo a seguinte estrutura:
+
+```
+.
++-- web
+|   +-- WEB-INF
+|   |   +-- web.xml
++-- pom.xml
+```
+
+1. Copiar o diretório `themes` do seguinte caminho de uma instalação do WebSphere Portal: `<WebSphere Portal root>/theme/wp.theme.themes/default85/installedApps/DefaultTheme85.ear/DefaultTheme85.war/themes` para o diretório `web` do módulo web criado
+1. Copiar o diretório `skins` do seguinte caminho de uma instalação do WebSphere Portal: `<WebSphere Portal root>/theme/wp.theme.themes/default85/installedApps/DefaultTheme85.ear/DefaultTheme85.war/skins` para o diretório `web`do módulo web criado
+1. Copiar o diretório: `tld` e os arquivos: `decorations.xml` e `plugin.xml` do seguinte caminho de uma instalação do WebSphere Portal `<WebSphere Portal root>/theme/wp.theme.themes/default85/installedApps/DefaultTheme85.ear/DefaultTheme85.war/WEB-INF` para o diretório `web/WEB-INF` do módulo criado
+1. Copiar o arquivo `plugin`
