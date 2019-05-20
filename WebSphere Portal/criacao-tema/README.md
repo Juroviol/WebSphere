@@ -34,6 +34,17 @@ Feito tudo isso ainda é preciso executar algumas tarefas:
 
 ## 2. Cópia da skin padrão do WebSphere Portal
 
-Da mesma maneira feita em [!1. Cópia do tema padrão do WebSphere Portal](#1-cópia-do-tema-padrão-do-websphere-portal), iremos fazer para o skin.
+Da mesma maneira feita em [1. Cópia do tema padrão do WebSphere Portal](#1-cópia-do-tema-padrão-do-websphere-portal), iremos fazer para o skin.
 
-#1-cópia-do-tema-padrão-do-websphere-portal
+Criar uma nova conexão no WinSCP e definir os seguintes parâmetros: 
+
+Campo | Descrição
+---|---
+Protocolo de arquivo | WebDAV
+Criptografia | Sem criptografia (Dependendo de como está disponibilizado a instância)
+Host | O endereço IP ou DNS da instância do WebSphere Portal
+Porta | 10039
+Usuário | O usuário que acessa a administração do WebSphere Portal
+Senha | A senha do usuário que acessa a administração do WebSphere Portal
+Diretório remoto | /wps/mycontenthandler/dav/skinlist
+Diretório local | Diretório definido na máquina local onde os arquivos serão copiadas
