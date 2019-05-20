@@ -34,4 +34,6 @@ Feito tudo isso ainda é preciso executar algumas tarefas:
 
 ## 2. Cópia da skin padrão do WebSphere Portal
 
-Da mesma maneira feita em 1. Cópia do tema padrão do WebSphere Portal, iremos fazer para o skin.
+Da mesma maneira feita em [!1. Cópia do tema padrão do WebSphere Portal](#1-cópia-do-tema-padrão-do-websphere-portal), iremos fazer para o skin.
+
+#1-cópia-do-tema-padrão-do-websphere-portal
