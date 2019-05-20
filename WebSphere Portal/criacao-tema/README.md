@@ -48,3 +48,10 @@ Usuário | O usuário que acessa a administração do WebSphere Portal
 Senha | A senha do usuário que acessa a administração do WebSphere Portal
 Diretório remoto | /wps/mycontenthandler/dav/skinlist
 Diretório local | Diretório definido na máquina local onde os arquivos serão copiadas
+
+Uma vez conectado será exibido todo o conteúdo do Diretório remoto, feito isso basta copiar o diretório ibm.portal.85Hiddem para a máquina local (no meu caso estou utilizando o WebSphere Portal 8.5, por isso do "85Hidden", no seu caso pode ser outro) e renomear para o nome desejado para o seu Skin.
+
+Feito tudo isso ainda é preciso executar algumas tarefas:
+
+1. Definir quais linguagens será dado suporte em /metadata
+1. Nos arquivos de localização definidos em `title` alterar o nome da skin
