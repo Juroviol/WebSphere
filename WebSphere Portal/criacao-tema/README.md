@@ -4,6 +4,8 @@ Segundo a IBM, a melhor maneira de criar um tema customizado, é copiar o tema p
 
 > The best way to start creating your own custom theme is by copying the portal WebSphere® Portal theme. This ensures that your theme has all the required elements for the theme to function.
 
+Todos os passos demonstrados abaixo tiveram como base em um vídeo hospedado no Youtube que pode ser acessado através deste [link](https://www.youtube.com/watch?v=bMmeynv8ke0&list=PLogxjp96lSq8H4XLiVJnZMzN8e3m1sqO7)
+
 ## 1. Cópia do tema padrão do WebSphere Portal
 
 Para se fazer a cópia do tema padrão do WebSphere Portal precisaremos acessar o diretório onde se encontra o tema dentro de uma instância do WebSphere Portal. A leitura desse diretório se dá através do protocolo WebDAV (Web Distributed Authoring and Versioning) que é um protocolo de transferência de arquivos, semelhantemente ao protocolo FTP, com a vantagem de conter informações sobre a versão e o autor dos arquivos e mudanças.
@@ -55,3 +57,9 @@ Feito tudo isso ainda é preciso executar algumas tarefas:
 
 1. Definir quais linguagens será dado suporte em /metadata
 1. Nos arquivos de localização definidos em `title` alterar o nome da skin
+
+# 3. Cópia dos recursos dinâmicos para o seu tema.
+
+Mesmo que você só queira fazer alterações nas partes estáticas do seu recente copiado tema, é recomendável que você faça cópia também dos recursos dinâmicos do tema padrão do WebSphere Portal para garantir que futuras CFs (Cumulative Fix) não afetem o seu tema.
+
+
