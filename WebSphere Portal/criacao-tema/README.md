@@ -96,3 +96,7 @@ O resultado esperado é a seguinte estrutura abaixo:
 |   |   +-- plugin.xml
 +-- pom.xml
 ```
+
+# 4. Alterar as referências de recurso dinâmicas para seu tema
+
+É importante fazer isso porque se você não atualizar as referências o seu tema pode não funcionar corretamente e até acarretar no mal funcionamento do tema padrão do WebSphere Portal.
