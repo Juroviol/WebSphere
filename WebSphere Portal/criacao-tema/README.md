@@ -67,7 +67,7 @@ Mesmo que você planeje somente fazer alterações nas partes estáticas do seu 
 
 Para isso realize os seguintes passos:
 
-1. Com ajuda de uma IDE Java de sua preferência, criar um módulo web (.war) contendo a seguinte estrutura:
+Com ajuda de uma IDE Java de sua preferência, criar um módulo web (.war) contendo a seguinte estrutura:
 
 ```
 .
@@ -80,7 +80,9 @@ Para isso realize os seguintes passos:
 1. Copiar o diretório `themes` do seguinte caminho de uma instalação do WebSphere Portal: *<WebSphere Portal Installation Root>/theme/wp.theme.themes/default85/installedApps/DefaultTheme85.ear/DefaultTheme85.war/themes* para o diretório `web` do módulo web criado
 1. Copiar o diretório `skins` do seguinte caminho de uma instalação do WebSphere Portal: *<WebSphere Portal Installation Root>/theme/wp.theme.themes/default85/installedApps/DefaultTheme85.ear/DefaultTheme85.war/skins* para o diretório `web` do módulo web criado
 1. Copiar o diretório: `tld` e os arquivos: `decorations.xml` e `plugin.xml` do seguinte caminho de uma instalação do WebSphere Portal *<WebSphere Portal Installation Root>/theme/wp.theme.themes/default85/installedApps/DefaultTheme85.ear/DefaultTheme85.war/WEB-INF* para o diretório `web/WEB-INF` do módulo criado
-1. Copiar o arquivo `plugin`
+
+
+O resultado esperado é a seguinte estrutura abaixo:
 
 ```
 .
