@@ -105,7 +105,7 @@ No módulo web criado (.war) no passo [3. Cópia dos recursos dinâmicos do WebS
 
 1. Abrir o arquivo `plugin.xml`
 1. Alterar o atributo `id` no elemento `<extension>` para um nome específico que será referenciado no seu tema. Ex.: `<extension id="wp_dynamicContentSpots_85_custom"...`
-1. Alterar o atributo `id` no elemento `<module>` para um nome específico que será referenciado no seu tema. Ex.: `<extension id="wp_dynamicContentSpots_85_custom"...`
+1. Alterar o atributo `id` no elemento `<module>` para um nome específico que será referenciado no seu tema. Ex.: `<module id="wp_dynamicContentSpots_85_juliano"...`
 1. Alterar o atributo `ref-id` dos elementos `sub-contribution` para um nome específico que será referenciado no seu tema. Ex.: `<sub-contribution type="markup" ref-id="custom_footer">...`
 
 No diretório do tema criado no passo [1. Cópia do tema padrão do WebSphere Portal](#1-cópia-do-tema-padrão-do-websphere-portal), realizar os seguintes passos:
