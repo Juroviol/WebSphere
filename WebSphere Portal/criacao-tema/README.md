@@ -61,7 +61,7 @@ Feito tudo isso ainda é preciso executar algumas tarefas:
 1. Definir quais linguagens será dado suporte em /metadata
 1. Nos arquivos de localização definidos em `title` alterar o nome da skin
 
-# 3. Cópia dos recursos dinâmicos do WebSphere Portal para ser utilizado no seu tema.
+## 3. Cópia dos recursos dinâmicos do WebSphere Portal para ser utilizado no seu tema.
 
 Mesmo que você planeje somente fazer alterações nas partes estáticas do seu recente copiado tema, é recomendável que você faça cópia também dos recursos dinâmicos do tema padrão do WebSphere Portal para garantir que futuras CFs (Cumulative Fix) não afetem o seu tema.
 
@@ -97,7 +97,7 @@ O resultado esperado é a seguinte estrutura abaixo:
 +-- pom.xml
 ```
 
-# 4. Alterar as referências de recurso dinâmicas para seu tema
+## 4. Alterar as referências de recurso dinâmicas para seu tema
 
 É importante fazer isso porque se você não atualizar as referências o seu tema pode não funcionar corretamente e até acarretar no mal funcionamento do tema padrão do WebSphere Portal.
 
