@@ -101,7 +101,7 @@ O resultado esperado é a seguinte estrutura abaixo:
 
 É importante fazer isso porque se você não atualizar as referências o seu tema pode não funcionar corretamente e até acarretar no mal funcionamento do tema padrão do WebSphere Portal.
 
-No módulo web criado (.war), realizar os seguintes passos:
+No módulo web criado (.war) no passo [3. Cópia dos recursos dinâmicos do WebSphere Portal para ser utilizado no seu tema](#3-cópia-dos-recursos-dinâmicos-do-websphere-portal-para-ser-utilizado-no-seu-tema), realizar os seguintes passos:
 
 1. Abrir o arquivo `plugin.xml`
 1. Alterar o atributo `id` no elemento `<extension>` para um nome específico que será referenciado no seu tema. Ex.: `<extension id="wp_dynamicContentSpots_85_custom"...`
