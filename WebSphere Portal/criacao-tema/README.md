@@ -110,4 +110,4 @@ No módulo web criado (.war) no passo [3. Cópia dos recursos dinâmicos do WebS
 No diretório do tema criado no passo [1. Cópia do tema padrão do WebSphere Portal](#1-cópia-do-tema-padrão-do-websphere-portal), realizar os seguintes passos:
 
 1. Acessar o diretório `nls`
-1. Nos arquivos theme_**lang**.html definidos de acordo com os idiomas que serão suportados, alterar as referências que contenham `85theme` para o nome definido em [4.](#ancora1) 
+1. Nos arquivos theme_**lang**.html definidos de acordo com os idiomas que serão suportados, alterar as referências que contenham `85theme` para o nome definido
