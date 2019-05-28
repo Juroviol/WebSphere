@@ -19,7 +19,13 @@ A especificação dos recursos desejados se dá através da configuração de um
 
 ### Habilitando Admin Center
 
-Para se habilitar o Admin Center é nessário especificar no arquivo `server.xml` que queremos habilita-lo. Para isso adicionar a "feature": adminCenter-1.0 conforme abaixo:
+Para se habilitar o Admin Center é preciso primeiro instalar a funcionalidade no Liberty. Para isso executar a instalação através de linha de comando:
+
+```
+{installationRoot}/bin/installUtility install adminCenter-1.0` 
+```
+
+Depois é preciso especificar no arquivo `server.xml` que queremos utiliza-lo no nosso servidor. Para isso adicionar a "feature": adminCenter-1.0 conforme abaixo:
 
 ```
 <features>
@@ -27,6 +33,8 @@ Para se habilitar o Admin Center é nessário especificar no arquivo `server.xml
   <feature>adminCenter-1.0</feature>
 </features>
 ```
+
+
 
 ### Liberty Features
 
