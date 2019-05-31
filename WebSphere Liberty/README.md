@@ -28,10 +28,12 @@ Para se habilitar o Admin Center é preciso primeiro instalar a funcionalidade n
 Depois é preciso especificar no arquivo `server.xml` que queremos utiliza-lo no nosso servidor. Para isso adicionar a feature adminCenter-1.0 conforme abaixo:
 
 ```
+...
 <features>
   ...
   <feature>adminCenter-1.0</feature>
 </features>
+...
 ```
 
 Com isso já é possível acessar a interface gráfica de administração através do endereço: `https://localhost:9443/adminCenter/` e será apresentado a tela de autenticação. Como não configuramos nenhuma conta, não será possível acessar ainda.
