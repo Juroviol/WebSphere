@@ -20,7 +20,7 @@ O WebSphere Liberty, uma vez instalado não irá possuir nenhum recurso Java EE 
 
 A especificação dos recursos desejados se dá através da configuração de um arquivo xml denominado `server.xml`. Existe também a possibilidade da mesma configuração ser realizado via interface gráfica pela central de administração do Liberty. Vale ressaltar porém que a central de administração por inteface gráfica não está disponível por padrão devendo ser instalado.
 
-## Manual
+## Instruções
 
 ### Habilitando Admin Center
 
