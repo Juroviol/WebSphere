@@ -19,19 +19,29 @@ A especificação dos recursos desejados se dá através da configuração de um
 
 ### Habilitando Admin Center
 
-Para se habilitar o Admin Center é preciso primeiro instalar a funcionalidade no Liberty. Para isso executar a instalação através de linha de comando:
+Para se habilitar o Admin Center é preciso primeiro instalar a funcionalidade no Liberty. Para isso executar a instalação através de linha de comando a partir do diretório raiz da instalação:
 
 ```
 {installationRoot}/bin/installUtility install adminCenter-1.0` 
 ```
 
-Depois é preciso especificar no arquivo `server.xml` que queremos utiliza-lo no nosso servidor. Para isso adicionar a "feature": adminCenter-1.0 conforme abaixo:
+Depois é preciso especificar no arquivo `server.xml` que queremos utiliza-lo no nosso servidor. Para isso adicionar a feature adminCenter-1.0 conforme abaixo:
 
 ```
 <features>
   ...
   <feature>adminCenter-1.0</feature>
 </features>
+```
+
+Com isso já é possível acessar a interface gráfica de administração através do endereço: `https://localhost:9443/adminCenter/` e será apresentado a tela de autenticação. Como não configuramos nenhuma conta, não será possível acessar ainda.
+
+Para configurar uma conta de acesso a interface gráfica de administração do Liberty, adicionar no arquivo `server.xml` conforme abaixo:
+
+```
+...
+<quickStartSecurity userName="admin" userPassword="admin" />
+...
 ```
 
 
