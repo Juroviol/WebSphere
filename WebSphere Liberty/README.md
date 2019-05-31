@@ -1,6 +1,9 @@
 # WebSphere Liberty
 Documentação do que é e como utilizar o WebSphere Liberty
 
+
+## Introdução
+
 ### O que é
 
 O WebSphere Liberty é um servidor de aplicação Java, rápido, dinâmico e fácil de usar. Ideal para desenvolvedores mas também em produção, com tempo de inicialização rápida, mudanças sem necessidade de reiniciar e uma simples configuração via XML.
@@ -16,6 +19,8 @@ Desenvolver aplicações para serem instaladas no servidor de aplicação WebSph
 O WebSphere Liberty, uma vez instalado não irá possuir nenhum recurso Java EE instalado, como por exemplo: JSF, Portlet, CDI, JMS, JPA, etc. Ficará na responsabilidade do utilizador fornecer ao Liberty, quais são os recursos necessários. Isso trás leveza e dinamismo, pois o servidor de aplicação não precisará inicializar os diversos recursos Java EE que existem em um servidor de aplicação normal, o qua à sua aplicação, não tem necessidade. 
 
 A especificação dos recursos desejados se dá através da configuração de um arquivo xml denominado `server.xml`. Existe também a possibilidade da mesma configuração ser realizado via interface gráfica pela central de administração do Liberty. Vale ressaltar porém que a central de administração por inteface gráfica não está disponível por padrão devendo ser instalado.
+
+## Manual
 
 ### Habilitando Admin Center
 
