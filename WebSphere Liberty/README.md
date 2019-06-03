@@ -43,15 +43,13 @@ Depois é preciso especificar no arquivo `server.xml` que queremos utiliza-lo no
 
 Com isso já é possível acessar a interface gráfica de administração através do endereço: https://localhost:9443/adminCenter/ e será apresentado a tela de autenticação. Como não configuramos nenhuma conta, não será possível acessar ainda.
 
-Para configurar uma conta de acesso a interface gráfica de administração do Liberty, adicionar no arquivo `server.xml` conforme abaixo:
+Para configurar uma conta de acesso a interface gráfica de administração do Liberty, adicionar a configuração de conta inicial no arquivo `server.xml` conforme abaixo:
 
 ```
 ...
 <quickStartSecurity userName="admin" userPassword="admin" />
 ...
 ```
-
-
 
 ### Liberty Features
 
