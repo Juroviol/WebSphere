@@ -50,6 +50,17 @@ Para configurar uma conta de acesso a interface gráfica de administração do L
 <quickStartSecurity userName="admin" userPassword="admin" />
 ...
 ```
+Agora já podemos acessar a interface gráfica de configuração, todavia ainda não podemos fazer modificações, apenas visualiza-las. Mais uma configuração no `server.xml` deverá ser realizado para especificar ao liberty que queremos ter a possibilidade de modificarmos as configurações via interface gráfica:
+
+```
+...
+<remoteFileAccess>
+  <writeDir>${server.config.dir}</writeDir>
+</remoteFileAccess>
+...
+```
+
+Pronto! Agora podemos acessar e realizar modificações nas configurações do servidor.
 
 ### Liberty Features
 
