@@ -3,7 +3,7 @@ Documentação do que é e como utilizar o WebSphere Liberty
 
 - [Introdução](#introdução)
   - [O que é](#o_que_é)
-  - [Por que?](#por_que_?)
+  - [Por que?](#por_que)
   - [Como funciona](#como_funciona)
 
 ## Introdução
