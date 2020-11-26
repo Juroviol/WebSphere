@@ -1,4 +1,9 @@
-# Criação de tema customizado para o WebSphere Portal
+# Tema
+
+- [Criação de tema customizado para o WebSphere Portal](#)
+- [Deploy do tema](#)
+
+## Criação de tema customizado para o WebSphere Portal
 
 Segundo a IBM, a melhor maneira de criar um tema customizado, é copiar o tema padrão do próprio WebSphere Portal, para que na criação do tema customizado, não seja esquecido de incluir as configurações necessárias.
 
@@ -9,7 +14,7 @@ Todos os passos demonstrados abaixo tiveram como base em um vídeo hospedado no 
 1. [Cópia do tema padrão do WebSphere Portal](#1-cópia-do-tema-padrão-do-websphere-portal)
 1. [Cópia da skin padrão do WebSphere Portal](#2-cópia-da-skin-padrão-do-websphere-portal)
 
-## 1. Cópia do tema padrão do WebSphere Portal
+### 1. Cópia do tema padrão do WebSphere Portal
 
 Para se fazer a cópia do tema padrão do WebSphere Portal precisaremos acessar o diretório onde se encontra o tema dentro de uma instância do WebSphere Portal. A leitura desse diretório se dá através do protocolo WebDAV (Web Distributed Authoring and Versioning) que é um protocolo de transferência de arquivos, semelhantemente ao protocolo FTP, com a vantagem de conter informações sobre a versão e o autor dos arquivos e mudanças.
 
@@ -37,7 +42,7 @@ Feito tudo isso ainda é preciso executar algumas tarefas:
 1. No arquivo metadata.properties em `com.ibm.portal.layout.template.href` alterar o nome do tema de acordo com o nome do diretório raíz do tema
 1. Excluir a pasta skins
 
-## 2. Cópia da skin padrão do WebSphere Portal
+### 2. Cópia da skin padrão do WebSphere Portal
 
 Da mesma maneira feita em [1. Cópia do tema padrão do WebSphere Portal](#1-cópia-do-tema-padrão-do-websphere-portal), iremos fazer para o skin.
 
@@ -61,7 +66,7 @@ Feito tudo isso ainda é preciso executar algumas tarefas:
 1. Definir quais linguagens será dado suporte em /metadata
 1. Nos arquivos de localização definidos em `title` alterar o nome da skin
 
-## 3. Cópia dos recursos dinâmicos do WebSphere Portal para ser utilizado no seu tema.
+### 3. Cópia dos recursos dinâmicos do WebSphere Portal para ser utilizado no seu tema.
 
 Mesmo que você planeje somente fazer alterações nas partes estáticas do seu recente copiado tema, é recomendável que você faça cópia também dos recursos dinâmicos do tema padrão do WebSphere Portal para garantir que futuras CFs (Cumulative Fix) não afetem o seu tema.
 
@@ -96,7 +101,7 @@ O resultado esperado é a seguinte estrutura abaixo:
 +-- pom.xml
 ```
 
-## 4. Alterar as referências de recurso dinâmicas para seu tema
+### 4. Alterar as referências de recurso dinâmicas para seu tema
 
 É importante fazer isso porque se você não atualizar as referências o seu tema pode não funcionar corretamente e até acarretar no mal funcionamento do tema padrão do WebSphere Portal.
 
