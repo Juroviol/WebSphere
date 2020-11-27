@@ -1,4 +1,4 @@
 # WebSphere Portal
 
-- [Tema](#criacao-tema)
+- [Tema](./criacao-tema)
 - [WCM](#wcm)
